@@ -1,9 +1,8 @@
 package com.iesam.SevillaFc.Domain.UseCase.Partidos;
 
-import com.iesam.SevillaFc.Domain.UseCase.ArbitroRepository;
 import com.iesam.SevillaFc.Domain.UseCase.EquiposRepository;
 
-public class FindEquipoUseCase {
+public class FindPartidosUseCase {
 
     private EquiposRepository equiposRepository;
 

@@ -7,11 +7,12 @@ public class AddEquiposUseCase {
 
     private EquiposRepository equiposRepository;
 
-    public void AddEquiposUseCase(EquiposRepository equiposRepository) {
+
+    public AddEquiposUseCase(EquiposRepository equiposRepository) {
         this.equiposRepository = equiposRepository;
     }
 
-    public void execute(Equipos equipoID) {
-        equiposRepository.save(equipoID);
+    public void execute(Equipos equipos) {
+        equiposRepository.save(equipos);
     }
 }

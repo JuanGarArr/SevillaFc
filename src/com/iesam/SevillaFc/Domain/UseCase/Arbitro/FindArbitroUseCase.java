@@ -1,4 +1,5 @@
 package com.iesam.SevillaFc.Domain.UseCase.Arbitro;
+import com.iesam.SevillaFc.Domain.Models.Arbitro;
 import com.iesam.SevillaFc.Domain.UseCase.ArbitroRepository;
 
 public class FindArbitroUseCase {
@@ -13,7 +14,7 @@ public class FindArbitroUseCase {
         this.arbitroRepository = arbitroRepository;
     }
 
-    public void execute(Integer arbitroId) {
-        arbitroRepository.findById(arbitroId);
+    public Arbitro execute(Integer arbitroId) {
+        return this.arbitroRepository.findById(arbitroId);
     }
 }
