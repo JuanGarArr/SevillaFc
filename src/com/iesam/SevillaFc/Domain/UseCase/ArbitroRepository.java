@@ -13,5 +13,4 @@ public interface ArbitroRepository {
     public Arbitro findById(Integer arbitroId);
 
     public List<Arbitro> getAll();
-    List<Arbitro> getAllWithRemote();
 }

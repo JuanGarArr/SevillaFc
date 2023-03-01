@@ -13,5 +13,4 @@ public interface NoticiaRepository {
     public Noticia findById(Integer noticiaId);
 
     public List<Noticia> getAll();
-    List<Noticia> getAllWithRemote();
 }

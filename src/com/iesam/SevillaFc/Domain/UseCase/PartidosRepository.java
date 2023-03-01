@@ -13,5 +13,4 @@ public interface PartidosRepository {
     public Partidos findById(Integer partidoId);
 
     public List<Partidos> getAll();
-    List<Partidos> getAllWithRemote();
 }

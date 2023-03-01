@@ -13,5 +13,4 @@ public interface EquiposRepository {
     public Equipos findById(Integer equiposId);
 
     public List<Equipos> getAll();
-    List<Equipos> getAllWithRemote();
 }
